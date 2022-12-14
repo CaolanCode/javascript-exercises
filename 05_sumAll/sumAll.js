@@ -7,10 +7,10 @@ const sumAll = function(min, max) {
         max = temp;
     }
     let total = 0;
-    for(let i = min; i < max; i++){
-        sum += i;
+    for(let i = min; i <= max; i++){
+        total += i;
     }
-    return sum;
+    return total;
 };
 
 // Do not edit below this line
